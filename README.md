@@ -20,3 +20,8 @@ Mira la demo del proyecto [aqui](https://rollingsugar.netlify.app/)
 ## Autores 🧑‍💻
 
 - Diaz Gonzalo
+
+## Demo del proyecto 
+
+Mira la demo del proyecto [aqui](https://rollingsugar.netlify.app/)
+
