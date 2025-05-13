@@ -20,3 +20,7 @@ main{
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+.video{
+  height: 350px;
+  object-fit: cover;
+}
