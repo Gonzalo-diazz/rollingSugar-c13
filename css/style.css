@@ -11,17 +11,3 @@ main{
     aspect-ratio: 1/1;
     object-fit: cover;
 }
-.padding-primary{
-    padding: 2% 20%;
-    
-}
-.img-comunidad{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-.video{
-  height: 350px;
-  object-fit: cover;
-}
-
