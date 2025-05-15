@@ -42,9 +42,9 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   aria-current="page"
-                  href="./index.html"
+                  href="/index.html"
                   >Inicio</a
                 >
               </li>
@@ -55,15 +55,18 @@
                 <a class="nav-link" href="error404.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacto.html ">Contacto</a>
+                <a class="nav-link active" href="contacto.html ">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <form>
+   <main class="container my-4">
+  <h1 class="text-center lead fs-1">Contacto</h1>
+  <form>
+    <div class="row justify-content-center px-2">
+      <div class="col-12 col-md-8 col-lg-6 p-4 shadow rounded bg-light">
         <div class="mb-3">
           <label for="nombre" class="form-label">Nombre y apellido*</label>
           <input
@@ -87,7 +90,7 @@
           />
         </div>
         <div class="mb-3">
-          <label for="telefono" class="form-label">Telefono</label>
+          <label for="telefono" class="form-label">Teléfono</label>
           <input
             type="text"
             class="form-control"
@@ -98,9 +101,7 @@
           />
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label"
-            >Ingrse su consulta*</label
-          >
+          <label for="exampleFormControlTextarea1" class="form-label">Ingrese su consulta*</label>
           <textarea
             class="form-control"
             id="exampleFormControlTextarea1"
@@ -110,9 +111,12 @@
           ></textarea>
         </div>
         <p class="text-secondary">Los campos con (*) son obligatorios</p>
-        <button class="btn btn-primary">Enviar</button>
-      </form>
-    </main>
+        <button class="btn btn-primary w-100">Enviar</button>
+      </div>
+    </div>
+  </form>
+</main>
+
     <footer class="bg-primary py-4 text-center text-light">
       <h5 class="fs-4">Seguinos en:</h5>
       <a href="./pages/error404.html" class="link-light fs-1 mx-2"
