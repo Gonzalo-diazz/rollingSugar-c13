@@ -19,3 +19,10 @@ main {
   aspect-ratio: 1/1;
   object-fit: cover;
 }
+@media (width >= 992px) {
+  .video-index {
+    height: 430px;
+    object-position: 50% 30%;
+    object-fit: cover;
+  }
+}
