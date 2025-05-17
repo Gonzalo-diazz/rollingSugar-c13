@@ -2,15 +2,24 @@
   background-color: gray !important;
 }
 @media (width <=992px) {
-    .navM{
-      display: flex;
-      padding: 50px;
-      font-size:20px ;
-      border-right: #E3350D 2px;
-    }
-    .aNav{
+  .navM {
+    display: flex;
+    padding: 50px;
+    font-size: 20px;
+    border-right: #e3350d 2px;
+  }
+  .aNav {
     margin-right: 5px;
     margin-left: 0px;
     font-size: 20px;
-    }
+  }
+}
+.tarjetaP {
+  transition: transform 0.3s, box-shadow 0.2s;
+}
+.tarjetas:hover {
+  transform: scale(1.03);
+  color: #111111;
+  transition: transform 0.3s, box-shadow 0.2s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
